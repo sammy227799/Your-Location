@@ -16,8 +16,8 @@
         android:layout_height="wrap_content"
         android:background="@drawable/round_button"
         android:text="Fetch Loaction"
-        android:textAllCaps="false"
 
+        android:textAllCaps="false"
         android:textColor="#FFFFFF" />
 
     <LinearLayout
@@ -65,6 +65,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/ToMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="0"
+        android:background="@drawable/round_button"
+
+        android:onClick="fetch"
+        android:text="Show on Map!"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF" />
 
 
 </LinearLayout>
